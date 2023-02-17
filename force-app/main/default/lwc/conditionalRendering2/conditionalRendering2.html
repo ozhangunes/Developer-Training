@@ -6,7 +6,7 @@
                 label="Enter the country you live in"
                 onchange={changeHandler}>
             </lightning-input>
-            <template if:true={showContent}>
+            <template lwc:if={showContent}>
                 Hey, I live in United States!!
             </template>
         </div>
